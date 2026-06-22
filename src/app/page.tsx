@@ -70,6 +70,15 @@ function useReveal() {
 function Hero() {
   return (
     <section className="relative min-h-screen flex items-center bg-void overflow-hidden">
+      {/* Background image */}
+      <img
+        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&h=900&fit=crop"
+        alt="Crossfit gym interior with equipment and weights"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/90 via-[#000000]/75 to-[#000000]/85" />
+
       {/* Faint diagonal lines background */}
       <div
         className="absolute inset-0 opacity-[0.03]"
