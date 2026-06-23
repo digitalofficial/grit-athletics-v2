@@ -77,7 +77,7 @@ function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       />
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/90 via-[#000000]/75 to-[#000000]/85" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/60 via-[#000000]/40 to-[#000000]/65" />
 
       {/* Faint diagonal lines background */}
       <div
